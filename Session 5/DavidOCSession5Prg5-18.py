@@ -8,12 +8,12 @@
 
 def main():
     print('number "x" is prime?')
-    testValue=(getInput())
+    getInput()
 
-#Loop o to 100 to determine prime state. Functions inside of functions OMG.
+#Loop 0 to 100 to determine prime state. Functions inside of functions OMG.
 def getInput():
     testValue = 0
-    for testRange in range (testValue,100):
+    for testValue in range (testValue,100):
         testValue += 1
         primeCheck=(determinePrime(testValue))
         output(testValue,primeCheck)
