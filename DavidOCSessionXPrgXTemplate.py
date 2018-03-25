@@ -1,3 +1,12 @@
-testFilew = open(r'test.txt', 'a')
-testFilew.write('No Mister Bond, I expect you to die!!!')
-testFilew.close()
+################################################################################
+#FOP Session X Program X-X
+#
+#Author: David OConnor
+#Date: 
+#Purpose: 
+################################################################################
+
+def main():
+
+#Make things happen
+main()
