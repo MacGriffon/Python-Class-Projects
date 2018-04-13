@@ -37,4 +37,3 @@ def calculateSales():
     print('\n')
 
 main()
-

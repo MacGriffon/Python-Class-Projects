@@ -3,7 +3,7 @@
 #
 #Author: David OConnor
 #Date: 4/10/2018
-#Purpose: 
+#Purpose: Accept a phone number and output it.
 ################################################################################
 
 def main():
