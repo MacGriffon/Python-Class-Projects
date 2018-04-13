@@ -6,8 +6,6 @@
 #Purpose: Display a list of numbers higher than a user input number.
 ################################################################################
 
-
-
 def main():
     menuInput = 0
     while menuInput !=99:
@@ -23,11 +21,9 @@ def main():
             print('',end='')
 
 def displayList(NUMBER_INDEX):
-    x = 1
     print(NUMBER_INDEX)
 
 def listAboveSelection(NUMBER_INDEX,menuInput):
-    x = menuInput
     del NUMBER_INDEX[0:menuInput]
     print(NUMBER_INDEX)
 
