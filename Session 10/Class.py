@@ -9,5 +9,6 @@ def main():
     student = Person()
 
     student.Say_Hello()
+    print ('My age is', student.person_age, 'test')
 
 main()
